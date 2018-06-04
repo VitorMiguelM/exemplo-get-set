@@ -1,0 +1,9 @@
+C:\Users\105013\Documents\GitHub\ExempoloGetSet\ExempoloGetSet\bin\Debug\ExempoloGetSet.exe.config
+C:\Users\105013\Documents\GitHub\ExempoloGetSet\ExempoloGetSet\obj\Debug\ExempoloGetSet.csprojResolveAssemblyReference.cache
+C:\Users\105013\Documents\GitHub\ExempoloGetSet\ExempoloGetSet\bin\Debug\ExempoloGetSet.exe
+C:\Users\105013\Documents\GitHub\ExempoloGetSet\ExempoloGetSet\bin\Debug\ExempoloGetSet.pdb
+C:\Users\105013\Documents\GitHub\ExempoloGetSet\ExempoloGetSet\obj\Debug\ExempoloGetSet.exe
+C:\Users\105013\Documents\GitHub\ExempoloGetSet\ExempoloGetSet\obj\Debug\ExempoloGetSet.pdb
+C:\Users\105013\Documents\GitHub\exemplo-get-set\ExempoloGetSet\bin\Debug\ExempoloGetSet.exe.config
+C:\Users\105013\Documents\GitHub\exemplo-get-set\ExempoloGetSet\obj\Debug\ExempoloGetSet.exe
+C:\Users\105013\Documents\GitHub\exemplo-get-set\ExempoloGetSet\obj\Debug\ExempoloGetSet.pdb
