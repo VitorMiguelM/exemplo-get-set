@@ -13,6 +13,7 @@ namespace ExempoloGetSet
         private double Peso;
         private double Altura;
 
+        //Guardar determinada informação, validando ou não
         public void SetNome(string nome)
         {
             if (nome.Count() < 3)
@@ -64,6 +65,25 @@ namespace ExempoloGetSet
             }
             Raca = raca;
         }
+
+        public string GetNome()
+        {
+            return Nome;
+        }
+
+        public string GetRaca()
+        {
+            return Raca;
+        }
         
+        public double GetPeso()
+        {
+            return Peso;
+        }
+
+        public double GetAltura()
+        {
+            return Altura;
+        }
     }
 }

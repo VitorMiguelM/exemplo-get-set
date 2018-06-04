@@ -12,10 +12,15 @@ namespace ExempoloGetSet
         {
             Cachorro dogao = new Cachorro();
             // set tem como objetivo guardar determinada informação
-            dogao.SetNome("aaaaaaa");
-            dogao.SetAltura(1.10);
+            dogao.SetNome("aaaaaaaaaaaaaaaaa");
+            dogao.SetAltura(2);
             dogao.SetPeso(80);
             dogao.SetRaca("");
+
+            Console.WriteLine(dogao.GetNome());
+            Console.WriteLine(dogao.GetRaca());
+            Console.WriteLine(dogao.GetPeso());
+            Console.WriteLine(dogao.GetAltura());
         }
     }
 }
