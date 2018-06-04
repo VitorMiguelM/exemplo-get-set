@@ -9,8 +9,8 @@ namespace ExempoloGetSet
     class Cachorro
     {
         private string Nome;
-        public string Raca;
-        public double Peso;
+        private string Raca;
+        private double Peso;
         private double Altura;
 
         public void SetNome(string nome)
@@ -38,5 +38,32 @@ namespace ExempoloGetSet
             }
             Altura = altura;
         }
+
+        public void SetPeso(double peso)
+        {
+            if (peso < 0.1) 
+            {
+                throw new Exception("O peso deve ser maior que 0.1"); 
+            }
+            if (peso > 150)
+            {
+                throw new Exception("O peso deve ser menor que 150");
+            }
+            Peso = peso;
+        }
+
+        public void SetRaca(string raca)
+        {
+            if (raca.Count() < 3)
+            {
+                throw new Exception("A raça deve conter mais de 3 caracteres");
+            }
+            if (raca.Count() > 40)
+            {
+                throw new Exception("A race deve conter menos de 40 caracteres");
+            }
+            Raca = raca;
+        }
+        
     }
 }

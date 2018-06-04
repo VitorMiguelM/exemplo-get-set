@@ -14,8 +14,8 @@ namespace ExempoloGetSet
             // set tem como objetivo guardar determinada informação
             dogao.SetNome("aaaaaaa");
             dogao.SetAltura(1.10);
-            dogao.Peso = 80;
-            dogao.Raca = "Pinscher";
+            dogao.SetPeso(80);
+            dogao.SetRaca("");
         }
     }
 }
